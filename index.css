@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px;
+    padding: 10px;
+}
+
+.column {
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+.column img {
+    width: 100%;
+    padding-top: 10px;
+    background: no-repeat center;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.column img:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+
+}
+
+/* @media screen and (max-width:600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+} */
